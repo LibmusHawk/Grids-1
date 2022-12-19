@@ -1,0 +1,70 @@
+body {
+    margin: 40px;
+  }
+  
+  .griddy {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    width: 250px;
+  }
+  
+  .grid-item {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+  .item1 {
+    grid-column: 1 / span 2;
+  grid-row: 1;
+  }
+
+
+  .griddity {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    width: 250px;
+  }
+
+  .grid-items {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+  .itemsE
+{
+    grid-column: 2 / span 2;
+  grid-row: 2;
+}
+
+    .itemsF
+    {
+        grid-column: 1 / span 2;
+  grid-row: 3;
+    }
+
+
+.iteA
+    {
+        grid-column: span 4;
+  grid-row: 1;
+    }
+
+    .iteD
+    {
+        grid-column: 3 / span2;
+  grid-row: 2 / span 2;
+    }
+    .iteB
+    {
+        grid-row: 2; 
+    }
